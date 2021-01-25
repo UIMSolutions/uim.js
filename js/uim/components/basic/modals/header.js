@@ -1,0 +1,1 @@
+Vue.component('uim-modal-header',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<div class="modal-header" :class="this.classes" :style="this.styles"><slot /></div>`});

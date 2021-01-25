@@ -1,0 +1,1 @@
+Vue.component('uim-modal-footer',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<div class="modal-footer" :class="this.classes" :style="this.styles"><slot /></div>`});

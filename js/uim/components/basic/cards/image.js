@@ -1,0 +1,1 @@
+Vue.component('uim-card-image',{computed:{classes:function(){return [this.position==="top"?'card-img-top':'card-img-bottom']},styles:function(){return [];}};,props:{position:{{type:String,default:"top",validator:value => ["top","bottom"].indexOf(value) >= 0}}},template:`<img class="card-img-top" :class="this.classes" :style="this.styles">`});

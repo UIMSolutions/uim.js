@@ -1,0 +1,1 @@
+Vue.component('uim-dropdown-header',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<h6 class="dropdown-header" :class="this.classes" :style="this.styles"><slot /></h6>`});

@@ -1,0 +1,1 @@
+Vue.component('uim-card-title',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<h4 class="card-title" :class="this.classes" :style="this.styles"><slot /></h4>`});

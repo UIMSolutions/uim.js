@@ -1,0 +1,1 @@
+Vue.component('uim-nav',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<ul class="nav" :class="this.classes" :style="this.styles"><slot /></ul>`});

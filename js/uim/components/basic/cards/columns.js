@@ -1,0 +1,1 @@
+Vue.component('uim-card-columns',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<div class="card-columns" :class="this.classes" :style="this.styles"><slot /></div>`});

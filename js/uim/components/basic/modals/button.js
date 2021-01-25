@@ -1,0 +1,1 @@
+Vue.component('uim-modal-button',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<button class="btn" :class="this.classes" :style="this.styles" data-toggle="modal"><slot /></button>`});

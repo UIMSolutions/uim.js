@@ -1,0 +1,1 @@
+Vue.component({computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<div :class="this.classes" :style="this.styles"><slot></slot></div>`});

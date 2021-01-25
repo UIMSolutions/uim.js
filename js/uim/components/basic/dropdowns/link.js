@@ -1,0 +1,1 @@
+Vue.component('uim-dropdown-link',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<a class="dropdown-item" :class="this.classes" :style="this.styles"><slot /></a>`});

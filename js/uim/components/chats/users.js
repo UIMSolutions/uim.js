@@ -1,0 +1,1 @@
+Vue.component('uim-chat-users',{computed:{classes:function(){return [];},styles:function(){return [];}};,props:{users:{{type:Array,default:function(){return[];}}}},template:`<div class="uim-chat-users" :class="this.classes" :style="this.styles"><uim-chat-user :key="user.id" :user="user" v-for="user in this.users"></uim-chat-user><slot></slot></div>`});

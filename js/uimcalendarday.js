@@ -1,0 +1,1 @@
+Vue.component('uim-calendar-day',{computed:{classes:function(){return [];},styles:function(){return [];}}});

@@ -1,0 +1,1 @@
+Vue.component('uim-tab-content',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<div class="tab-content" :class="this.classes" :style="this.styles"><slot /></div>`});

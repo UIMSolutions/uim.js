@@ -1,0 +1,1 @@
+Vue.component('uim-dropdown-divider',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<div class="dropdown-divider" :class="this.classes" :style="this.styles"><slot /></div>`});

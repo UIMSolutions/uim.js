@@ -1,0 +1,1 @@
+Vue.component('uim-input-textarea',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<textarea class="form-control" :class="this.classes" :style="this.styles"><slot /></textarea>`});

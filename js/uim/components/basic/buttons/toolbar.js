@@ -1,0 +1,1 @@
+Vue.component('uim-button-toolbar',{computed:{classes:function(){return [""]},styles:function(){return [];}};,template:`<div class="btn-toolbar" :class="this.classes" :style="this.styles" role="toolbar"><slot /></div>`});

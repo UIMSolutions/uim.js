@@ -1,0 +1,1 @@
+Vue.component('uim-card-footer',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<div class="card-footer" :class="this.classes" :style="this.styles"><slot /></div>`});

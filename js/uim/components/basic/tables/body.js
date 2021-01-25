@@ -1,0 +1,1 @@
+Vue.component('uim-TableBody',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<tbody :class="this.classes" :style="this.styles"><slot /></tbody>`});

@@ -1,0 +1,1 @@
+Vue.component('uim-calendar-year',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<div class="uim-calendar-year" :class="this.classes" :style="this.styles"><slot /></div>`});

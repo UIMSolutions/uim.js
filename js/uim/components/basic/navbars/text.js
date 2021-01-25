@@ -1,0 +1,1 @@
+Vue.component('uim-navbar-text',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<span class="navbar-text" :class="this.classes" :style="this.styles"><slot /></span>`});

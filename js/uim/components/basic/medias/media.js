@@ -1,0 +1,1 @@
+Vue.component('uim-media',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<div class="media" :class="this.classes" :style="this.styles"><slot /></div>`});

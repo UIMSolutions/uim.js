@@ -1,0 +1,1 @@
+Vue.component('uim-card-deckwrapper',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<div class="card-deck-wrapper" :class="this.classes" :style="this.styles"><slot /></div>`});

@@ -1,0 +1,1 @@
+Vue.component('uim-list-inlineitem',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<li class="list-inline-item" :class="this.classes" :style="this.styles"><slot /></li>`});

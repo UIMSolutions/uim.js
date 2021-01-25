@@ -1,0 +1,1 @@
+Vue.component('uim-card-link',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<a class="card-link" :class="this.classes" :style="this.styles" href="#"><slot /></a>`});

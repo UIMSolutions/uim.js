@@ -1,0 +1,1 @@
+Vue.component('uim-card-body',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<div class="card-body" :class="this.classes" :style="this.styles"><slot /></div>`});

@@ -1,0 +1,1 @@
+Vue.component('uim-TableCell',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<td :class="this.classes" :style="this.styles"><slot /></td>`});

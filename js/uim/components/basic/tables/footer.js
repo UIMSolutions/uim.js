@@ -1,0 +1,1 @@
+Vue.component('uim-TableFooter',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<tfoot :class="this.classes" :style="this.styles"><slot /></tfoot>`});

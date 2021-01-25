@@ -1,0 +1,1 @@
+Vue.component('uim-input-select',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<select class="form-control" :class="this.classes" :style="this.styles"><slot /></select>`});

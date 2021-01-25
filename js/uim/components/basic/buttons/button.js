@@ -1,0 +1,7 @@
+Vue.component('uim-button',{computed:{classes:function(){return [
+    this.block ? 'btn-block':'',
+    (this.color !== "none")&&(this.outline === "none")?'btn-'+this.color:'',
+    (this.active)&&(!this.disabled) ? 'active':'',
+    this.disabled ? 'disabled':'',
+    this.outline !== "none"?'btn-outline-'+this.outline:'',
+    this.size !== "normal"?'btn-'+this.size:""];},styles:function(){return [];}};,methods:{click(event){if (this.state === "disabled"){event.stopImmediatePropagation();return;}this.$emit("click", event);}},props:{outline:{{type:String,default:"none", validator:value => ["none", "primary", "secondary", "success", "danger", "warning", "info", "light", "dark"].indexOf(value) >= 0}},active:{{type:Boolean,default:false}},size:{{type:String,default:"normal", validator:value => ["normal", "lg", "sm"].indexOf(value) >= 0}},color:{{type:String,default:"none", validator:value => ["none", "primary", "secondary", "success", "danger", "warning", "info", "light", "dark", "link"].indexOf(value) >= 0}},disabled:{{type:Boolean,default:false}},type:{{type:String,default:"button", validator:value => ["button", "submit", "reset", "menu"].indexOf(value) >= 0}},block:{{type:Boolean,default:false}}},template:`<button class="btn" :aria-pressed="this.active" :class="this.classes" :style="this.styles" @click="click" type="button"><slot /></button>`});

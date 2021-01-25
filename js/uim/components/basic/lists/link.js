@@ -1,0 +1,1 @@
+Vue.component('uim-list-link',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<a class="list-group-item list-group-item-action" :class="this.classes" :style="this.styles"><slot /></a>`});

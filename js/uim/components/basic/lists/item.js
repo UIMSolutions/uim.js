@@ -1,0 +1,1 @@
+Vue.component('uim-list-item',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<li class="list-group-item" :class="this.classes" :style="this.styles"><slot /></li>`});

@@ -1,0 +1,1 @@
+Vue.component('uim-navbar-togglericon',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<span class="navbar-toggler-icon" :class="this.classes" :style="this.styles"><slot /></span>`});

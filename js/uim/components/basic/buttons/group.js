@@ -1,0 +1,3 @@
+Vue.component('uim-button-group',{computed:{classes:function(){return [
+    this.orientation === "horizontal" ? "btn-group" : "btn-group-vertical",
+    this.size !== "normal" ? 'btn-group-'+this.size : ""];},styles:function(){return [];}};,props:{size:{{ type: String,default:"normal", validator: value => ["normal", "lg", "sm"].indexOf(value) >= 0}},orientation:{{ type: String,default:"horizontal", validator: value => ["horizontal", "vertical"].indexOf(value) >= 0}}},template:`<div class="btn-group" :class="this.classes" :style="this.styles" role="group"><slot /></div>`});

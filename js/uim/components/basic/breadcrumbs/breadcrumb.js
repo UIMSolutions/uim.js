@@ -1,0 +1,1 @@
+Vue.component('uim-breadcrumb',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<nav :class="this.classes" :style="this.styles" aria-label="breadcrumb"><slot /></nav>`});

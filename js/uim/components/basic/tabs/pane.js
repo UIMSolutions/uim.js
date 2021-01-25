@@ -1,0 +1,1 @@
+Vue.component('uim-tab-pane',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<div class="tab-pane" :class="this.classes" :style="this.styles" aria-expanded="false" role="tabpanel"><slot /></div>`});

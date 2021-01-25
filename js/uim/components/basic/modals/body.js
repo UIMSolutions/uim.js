@@ -1,0 +1,1 @@
+Vue.component('uim-modal-body',{computed:{classes:function(){return [];},styles:function(){return [];}};,template:`<div class="modal-body" :class="this.classes" :style="this.styles"><slot /></div>`});

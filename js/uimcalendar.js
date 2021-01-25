@@ -1,0 +1,1 @@
+Vue.component('uim-calendar',{computed:{classes:function(){return [];},styles:function(){return [];}}});

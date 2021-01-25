@@ -1,0 +1,1 @@
+Vue.component('uim-dropdown-button',{computed:{classes:function(){return[active ? 'active':'',color !== 'None'? 'btn-'+this.color:'',disabled ? 'disabled':''];},styles:function(){return [];}},props:{active:{{type:Boolean,default:false}},color:{{type:String,default:'None'}},disabled:{{type:Boolean,default:false}}}});
